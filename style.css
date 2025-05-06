@@ -42,7 +42,7 @@ body {
 }
 .profile-card {
   flex: 1;
-  max-width: 300px;
+  max-width: 250px;
   text-align: center;
 }
 .profile-pic {
