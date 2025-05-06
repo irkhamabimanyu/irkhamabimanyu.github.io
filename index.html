@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Irkham Taufik Abimanyu - Web Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+</head>
+<body>
+  <header class="header">
+    <div class="logo"><span class="dot"></span> <strong>Irkham Taufik Abimanyu</strong> / WEB DEVELOPER</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">ABOUT ME</a></li>
+        <li><a href="#resume">RESUME</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <aside class="profile-card">
+      <img src="user.PNG" alt="Nama Kamu" class="profile-pic"/>
+      <h2>Irkham Taufik Abimanyu</h2>
+      <p class="subtitle">WEB DEVELOPER</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </aside>
+
+    <section class="content">
+      <h1>Hello</h1>
+      <h3>I'm a Web Developer</h3>
+      <div class="buttons">
+        <button class="btn primary" onclick="scrollToSection('resume')">VIEW RESUME</button>
+        <button class="btn secondary" onclick="scrollToSection('projects')">SEE PROJECTS</button>
+      </div>
+      <p style="text-align: justify;">
+        A highly motivated Informatics graduate with a strong foundation in web development. Successfully designed and developed two web-based systems during academic studies. Demonstrates strong work ethic, adaptability, and the ability to work well under pressure.
+      </p>
+    </section>
+  </main>
+
+  <!-- ABOUT ME -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      Hello! I'm a passionate Web Developer with a strong foundation in Informatics.
+      I enjoy creating clean and scalable solutions for the web using modern technologies.
+    </p>
+  </section>
+
+  <!-- RESUME -->
+  <section id="resume" class="section">
+    <h2>Resume</h2>
+    <ul>
+      <li><strong>Education:</strong> Bachelor of Informatics - Ahmad Dahlan Unersity</li>
+      <li><strong>Skills:</strong> HTML, CSS, JavaScript, MySql</li>
+    </ul>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <p>Here are a few projects I've worked on recently:</p>
+    <ul>
+      <li>💼 <strong>Front-End of the Profile Website – Senior High School Muhammadiyah Sidorejo</strong> – Responsive profile website using HTML/CSS/JS</li>
+      <li>🛒 <strong>Stone Carving Order Application</strong> – Built with HTML/PHP/CSS/JS</li>
+    </ul>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>You can reach me through:</p>
+    <ul>
+      <li>Email: loremipsum</li>
+      <li>Phone: +62-838-XXXX-XXXX</li>
+    </ul>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 by Irkham Taufik Abimanyu. Powered and secured with 💻</p>
+    <div class="footer-contact">
+      <span>Call<br/>+62-838-XXXX-XXXX</span>
+      <span>Write<br/>Email</span>
+      <span>Follow<br/>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </span>
+    </div>
+  </footer>
+  <script>
+    function scrollToSection(id) {
+      document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
